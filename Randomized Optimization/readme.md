@@ -24,4 +24,4 @@ These different problems highlight advantages of GAs, SA, and MIMIC. First three
 ## Tools Used
 I used Abagail for my analysis because it had mostly what was needed to complete this assignment. I started my debugger and ran all experiments to understand how it works. I modified the test files to perform different experiments. Graphs were drawn using Plotly.
 
-For details, please see [analysis](Machine-Learning/Randomized Optimization/Analysis Randomized Optimization.pdf)
+For details, please see [analysis](https://github.com/jassimran/Machine-Learning/blob/master/Randomized%20Optimization/Analysis%20Randomized%20Optimization.pdf)
