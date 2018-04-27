@@ -1,12 +1,12 @@
-#Randomized Optimization
+# Randomized Optimization
 
-Implemented below four local random search algorithms:
+## Implemented below four local random search algorithms:
 1. Randomized hill climbing
 2. Simulated annealing
 3. A genetic algorithm
 4. MIMIC
 
-##Problems:
+## Problems:
 1. **Flip Flop function** returns the number of times bits alternate in a bitstring, For example: “0011” would return 2.
 “0101” would return 4. The optimal solution produces a constantly alternating bitstring with a return value equal
 to the length of the string.
@@ -18,8 +18,8 @@ maxima’s (4 peaks) out of which two are global maxima and two are suboptimal l
 function takes two inputs: (1) a bitstring of length N which represents the size of the input vector; (2) the size of
 the basin of attraction T of local maxima’s.
 
-##ANALYSIS: 
-These different problems highlight advantages of GAs, SA, and MIMIC. First three algorithms werew used to find good weights for a neural network.
+## ANALYSIS: 
+These different problems highlight advantages of GAs, SA, and MIMIC. First three algorithms were used to find good weights for a neural network.
 
-##TOOLS USED
+## TOOLS USED
 I used Abagail for my analysis because it had mostly what was needed to complete this assignment. I started my debugger and ran all experiments to understand how it works. I modified the test files to perform different experiments. Graphs were drawn using Plotly.
