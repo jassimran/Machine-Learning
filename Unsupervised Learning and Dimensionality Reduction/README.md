@@ -30,4 +30,4 @@
 9. How well is the data reconstructed by the randomized projections? How much variation did you get when you re-ran your RP several times.
 10. When clustering experiments were reproduced on the datasets projected onto the new spaces created by ICA, PCA and RP, how different were the clusters.
 
-For details, please see my [analysis](Machine-Learning/Unsupervised Learning and Dimensionality Reduction/Analysis Unsupervised Learning and Dimensionality Reduction.pdf)
+For details, please see my [analysis](https://github.com/jassimran/Machine-Learning/blob/master/Unsupervised%20Learning%20and%20Dimensionality%20Reduction/Analysis%20Unsupervised%20Learning%20and%20Dimensionality%20Reduction.pdf)
