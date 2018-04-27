@@ -20,10 +20,10 @@ variables.
 Compared these different algorithms -  what changes were made to each of these algorithms to improve performance? How fast were they in terms of wall clock time? Iterations? Would cross validation help? How much performance was due to the  chosen problems? How about the values I chose for learning rates, stopping criteria, pruning methods, and so forth? Which algorithm performed best?
 
 ### Tools Used
-I used Weka 3.6 for my analysis because it has an easy to understand GUI. Both my datasets were originally sorted and i used Randomizer Filter with seed value 42 to randomize it. Next I split them into 70% training and 30% test sets using percentage split filter. 
+I used [Weka 3.6](https://www.cs.waikato.ac.nz/ml/weka/) for my analysis because it has an easy to understand GUI. Both my datasets were originally sorted and i used Randomizer Filter with seed value 42 to randomize it. Next I split them into 70% training and 30% test sets using percentage split filter. 
 
 I also used weka to convert the csv files into arff file to be used for analysis through arff viewer in tools. Combination of weka Explorer, Experimenter and CLI was used to generate the data for my analysis as just one of them was not able to provide all the features i needed for my analysis. 
 
 Most of the learning curves are performed through experimenter using Cross-Validation Producer and FilteredClassifier and then remove percentage  attribute was used.
 
-Please go through [analysis](Machine-Learning/Supervised Learning/Analysis Supervised Learning .pdf) for details
+Please go through [analysis](https://github.com/jassimran/Machine-Learning/blob/master/Supervised%20Learning/Analysis%20Supervised%20Learning%20.pdf) for details
