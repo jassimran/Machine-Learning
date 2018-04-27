@@ -18,8 +18,10 @@ maxima’s (4 peaks) out of which two are global maxima and two are suboptimal l
 function takes two inputs: (1) a bitstring of length N which represents the size of the input vector; (2) the size of
 the basin of attraction T of local maxima’s.
 
-## ANALYSIS: 
+## Analysis: 
 These different problems highlight advantages of GAs, SA, and MIMIC. First three algorithms were used to find good weights for a neural network.
 
-## TOOLS USED
+## Tools Used
 I used Abagail for my analysis because it had mostly what was needed to complete this assignment. I started my debugger and ran all experiments to understand how it works. I modified the test files to perform different experiments. Graphs were drawn using Plotly.
+
+For details, please see [analysis](Machine-Learning/Randomized Optimization/Analysis Randomized Optimization.pdf)

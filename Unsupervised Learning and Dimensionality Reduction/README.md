@@ -1,4 +1,4 @@
-#Unsupervised Learning and Dimensionality Reduction
+# Unsupervised Learning and Dimensionality Reduction
 
 **Implemented the following two clustering algorithms:**
 1. k-means clustering
@@ -12,13 +12,13 @@
 4. Information Gain (IG)
 
 **These were run on below two datasets:**
-##DATASET 1:
+## DATASET 1:
 **Whole Sale Customer Data Set:** This dataset is obtained from UCI dataset repository and it has 8 attributes and 440 instances. It is a classification problem where Customer’s region can be classified as 1,2 3 based on their purchase of goods. 
 
-##DATASET 2:
+## DATASET 2:
 **Red Wine Data Set:** This dataset is obtained from UCI dataset repository and it has 12 attributes and 1599 instances. The task is to classify the wine quality as a score between 0-10 based on physicochemical and sensory variables but current dataset has score values from 3-8 only.
 
-###AIM OF ANALYSIS:
+### AIM OF ANALYSIS:
 1. Run the clustering algorithms on the datasets
 2. Apply the dimensionality reduction algorithms on the datasets
 3. Reproduce your clustering experiments, but on the data after applying dimensionality reduction on it.
@@ -29,3 +29,5 @@
 8. For ICA, how kurtotic are the distributions is shown? 
 9. How well is the data reconstructed by the randomized projections? How much variation did you get when you re-ran your RP several times.
 10. When clustering experiments were reproduced on the datasets projected onto the new spaces created by ICA, PCA and RP, how different were the clusters.
+
+For details, please see my [analysis](Machine-Learning/Unsupervised Learning and Dimensionality Reduction/Analysis Unsupervised Learning and Dimensionality Reduction.pdf)
